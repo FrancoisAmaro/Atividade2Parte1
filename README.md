@@ -5,14 +5,15 @@
 ##### Aluno: François de Araújo Amaro - 202413810031 #####
 ##### Data: 07/11/2025 #####
 
-
+<br>
 <br>
   
 # Atividade2Parte1 #
 Primeira parte da segunda atividade da disciplina Linguagens de Script - IFPB
-
+<br>
+<br>
 ## Questões práticas ##
-
+<br>
 ## 1. Explique o que é JSON e por que ele se tornou tão popular para troca de dados entre aplicações. ##
 
 JSON é a sigla de JavaScript Object Notation que traduzida significa Notação de Objeto JavaScript, sendo um formato de representação de dados que é muito utilizado para API e também arquivos de configuração, dentre suas características:  utiliza o formato de chave e valor, é leve para ser enviado por requisições, sendo uma forma de escrever objetos JavaScript que pode ser interpretada por outras linguagens de programação sendo baseada em texto.
