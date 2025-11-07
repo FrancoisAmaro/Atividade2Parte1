@@ -10,7 +10,7 @@
   
 
 # Questões práticas sobre JSON #
-
+![](https://github.com/FrancoisAmaro/Atividade2Parte1/blob/main/GIF_JSON.gif?raw=true)
 <br>
 
 ## 1. Explique o que é JSON e por que ele se tornou tão popular para troca de dados entre aplicações. ##
