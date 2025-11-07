@@ -20,3 +20,11 @@ Exemplo: Vários aplicativos contêm informações valiosas, O instagram por exe
 
 
 ## 4. Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas? ##
+
+Deixa o código mais organizado, fácil de visualizar e de manipular, destacando algumas características abaixo, como:
+- Legibilidade: Permitindo a inclusão de expressões e variáveis diretamente dentro da string, usando a ${expressão} (placeholders). Isso torna a construção de strings complexas muito mais clara e concisa.
+    Template String: `Olá ${nome}. Sua idade é ${idade + 1}.`
+    Concatenação: "Olá, " + nome + ". Sua idade é " + (idade + 1) + "."
+- Suporte Multilinha: Pode-se criar strings em várias linhas, sem a dependência de utilizar caracteres de escape como concatenção repetida e \n.
+- Expressões Inline: É possível executar qualquer código * JavaScript * válido dentro do placeholder ${} (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
+  
