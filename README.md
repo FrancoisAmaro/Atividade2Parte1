@@ -20,25 +20,28 @@ Exemplo: Vários aplicativos contêm informações valiosas, O instagram por exe
 
 Considerando a string str = "JavaScript é baseada em ECMA Script", você usaria os seguintes métodos:
 
-Verificar se contém a palavra "Script"
+(Verificar se contém a palavra "Script")
+
 O método mais direto (introduzido no ES6) é o includes().
-Método: includes()
-Exemplo: str.includes("Script");
-Resultado: true
-Alternativa: Você também poderia usar indexOf(). Se o resultado for diferente de -1, a string contém a palavra. Exemplo: str.indexOf("Script") !== -1;
+- Método: includes()
+- Exemplo: str.includes("Script");
+- Resultado: true
+      Alternativa: Você também poderia usar indexOf(). Se o resultado for diferente de -1, a string contém a palavra. Exemplo: str.indexOf("Script") !== -1;
 
-Remover a palavra "JavaScript" e gerar uma nova string
+(Remover a palavra "JavaScript" e gerar uma nova string)
+
 Pode-se usar o método replace() para encontrar a palavra e substituí-la por uma string vazia ("").
-Método: replace()
-Exemplo: str.replace("JavaScript ", "");
-Resultado: "é baseada em ECMA Script"
-Observação: O replace() não modifica a string original, mas sim gera uma nova string com a substituição.
 
-Substituir "baseada" por "tem origem"
-O método replace() também é ideal para esta substituição.
-Método: replace()
-Exemplo: str.replace("baseada", "tem origem");
-Resultado: "JavaScript é tem origem em ECMA Script"
+- Método: replace()
+- Exemplo: str.replace("JavaScript ", "");
+- Resultado: "é baseada em ECMA Script"
+    Observação: O replace() não modifica a string original, mas sim gera uma nova string com a substituição.
+
+(Substituir "baseada" por "tem origem")
+
+- Método: replace()
+- Exemplo: str.replace("baseada", "tem origem");
+- Resultado: "JavaScript é tem origem em ECMA Script"
 
 ## 4. Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas? ##
 
@@ -47,5 +50,5 @@ Deixa o código mais organizado, fácil de visualizar e de manipular, destacando
     Template String: `Olá ${nome}. Sua idade é ${idade + 1}.`
     Concatenação: "Olá, " + nome + ". Sua idade é " + (idade + 1) + "."
 - Suporte Multilinha: Pode-se criar strings em várias linhas, sem a dependência de utilizar caracteres de escape como concatenção repetida e \n.
-- Expressões Inline: É possível executar qualquer código * JavaScript * válido dentro do placeholder ${} (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
+- Expressões Inline: É possível executar qualquer código ** JavaScript ** válido dentro do placeholder ${} (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
   
