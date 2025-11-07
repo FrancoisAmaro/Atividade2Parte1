@@ -8,6 +8,17 @@ Primeira parte da segunda atividade da disciplina Linguagens de Script - IFPB
 JSON é a sigla de JavaScript Object Notation que traduzida significa Notação de Objeto JavaScript, sendo um formato de representação de dados que é muito utilizado para API e também arquivos de configuração, dentre suas características:  utiliza o formato de chave e valor, é leve para ser enviado por requisições, sendo uma forma de escrever objetos JavaScript que pode ser interpretada por outras linguagens de programação sendo baseada em texto.
 JSON se tornou tão popular para troca de dados entre aplicações porque tem um formato leve, simples, legível e independente de linguagem, que facilita a troca de dados entre sistemas. Ele é mais rápido de processar e consome menos largura de banda que alternativas como o XML, tornando-o ideal para a comunicação em tempo real em aplicações web. 
 
+### Exemplo de JSON
+```json
+{
+  "Nome": "Geraldo Ferreira da Silva",
+  "Data de Nascimento": "01/01/1970" ,
+  "Local de Nascimento": "Rio de Janeiro - RJ",
+  "Doenças Detectadas": ["Hipertensão", "Diabetes", "Hepatite"],
+  "Plano de Saúde": null
+}
+```
+
 ## 2. Qual a diferença fundamental entre JSON.stringify() e JSON.parse()? Dê um exemplo prático de quando usar cada um. ##
 
 Quando o JSON é transferido para API, é transferido como texto, e o método JSON.stringify() garante que seja um texto com JSON válido. Já o JSON.parse() é o método que converte JSON em um objeto válido.
