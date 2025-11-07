@@ -8,13 +8,8 @@
 <br>
 <br>
   
-# Atividade2Parte1 #
-Primeira parte da segunda atividade da disciplina Linguagens de Script - IFPB
 
-<br>
-<br>
-
-## Questões práticas ##
+# Questões práticas sobre JSON #
 
 <br>
 ## 1. Explique o que é JSON e por que ele se tornou tão popular para troca de dados entre aplicações. ##
