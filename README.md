@@ -1,9 +1,9 @@
-## IFPB - Instituto Federal da Paraíba ##
-## Curso: Tecnologia em Sistemas para Internet ##
-## Disciplina: Linguagens de Script ##
-## Professor: Rhavy Maia Guedes ##
-## Aluno: François de Araújo Amaro - 202413810031 ##
-## Data: 07/11/2025
+##### IFPB - Instituto Federal da Paraíba #####
+##### Curso: Tecnologia em Sistemas para Internet #####
+##### Disciplina: Linguagens de Script #####
+##### Professor: Rhavy Maia Guedes #####
+##### Aluno: François de Araújo Amaro - 202413810031 #####
+##### Data: 07/11/2025 #####
 
 
 
