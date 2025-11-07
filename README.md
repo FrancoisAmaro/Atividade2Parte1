@@ -11,8 +11,8 @@ JSON se tornou tão popular para troca de dados entre aplicações porque tem um
 ### Exemplo de JSON
 ```json
 {
-  "Nome": "Geraldo Ferreira da Silva",
-  "Data de Nascimento": "01/01/1970" ,
+  "Nome Completo": "Geraldo Ferreira da Silva",
+  "Data de Nascimento": "01/01/1970",
   "Local de Nascimento": "Rio de Janeiro - RJ",
   "Doenças Detectadas": ["Hipertensão", "Diabetes", "Hepatite"],
   "Plano de Saúde": null
