@@ -66,7 +66,7 @@ Pode-se usar o método `replace()` para encontrar a palavra e substituí-la por 
 - Exemplo: `str.replace("JavaScript ", "");`
 - Resultado: `"é baseada em ECMA Script"`
   
-    Observação: O `replace()` não modifica a string original, mas sim gera uma nova string com a substituição.
+Observação: O `replace()` não modifica a string original, mas sim gera uma nova string com a substituição.
 
 <br>
 <br>
@@ -77,12 +77,21 @@ Pode-se usar o método `replace()` para encontrar a palavra e substituí-la por 
 - Exemplo: `str.replace("baseada", "tem origem");`
 - Resultado: `"JavaScript é tem origem em ECMA Script"`
 <br>
+
 ## 4. Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas? ##
 
 Deixa o código mais organizado, fácil de visualizar e de manipular, destacando algumas características abaixo, como:
-- Legibilidade: Permitindo a inclusão de expressões e variáveis diretamente dentro da string, usando a ${expressão} (placeholders). Isso torna a construção de strings complexas muito mais clara e concisa.
+<br>
+- **Legibilidade**: Permitindo a inclusão de expressões e variáveis diretamente dentro da string, usando a ${expressão} (placeholders). Isso torna a construção de strings complexas muito mais clara e concisa.
     Template String: `Olá ${nome}. Sua idade é ${idade + 1}.`
-    Concatenação: "Olá, " + nome + ". Sua idade é " + (idade + 1) + "."
-- Suporte Multilinha: Pode-se criar strings em várias linhas, sem a dependência de utilizar caracteres de escape como concatenção repetida e \n.
-- Expressões Inline: É possível executar qualquer código ** JavaScript ** válido dentro do placeholder ${} (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
+    Concatenação: `"Olá, " + nome + ". Sua idade é " + (idade + 1) + "."`
+<br>
+
+- **Suporte Multilinha**: Pode-se criar strings em várias linhas, sem a dependência de utilizar caracteres de escape como concatenção repetida e `\n.`
+<br>
+
+- **Expressões Inline**: É possível executar qualquer código **JavaScript** válido dentro do placeholder ${} (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
+<br>
+
+
   
