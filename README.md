@@ -108,7 +108,7 @@ Deixa o código mais organizado, fácil de visualizar e de manipular, destacando
 - **Suporte Multilinha**: Pode-se criar strings em várias linhas, sem a dependência de utilizar caracteres de escape como concatenção repetida e `\n.`
 <br>
 
-- **Expressões Inline**: É possível executar qualquer código **JavaScript** válido dentro do placeholder ${} (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
+- **Expressões Inline**: É possível executar qualquer código **JavaScript** válido dentro do placeholder `${}` (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
 <br>
 
 
