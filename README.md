@@ -21,11 +21,11 @@
 ### Exemplo de JSON:
 ```json
 {
-  "Nome Completo": "Geraldo Ferreira da Silva",
-  "Data de Nascimento": "01/01/1970",
-  "Local de Nascimento": "Rio de Janeiro - RJ",
-  "Doenças Detectadas": ["Hipertensão", "Diabetes", "Hepatite"],
-  "Possui Plano de Saúde": true
+  "nome completo": "Geraldo Ferreira da Silva",
+  "data de nascimento": "01/01/1970",
+  "local de nascimento": "Rio de Janeiro - RJ",
+  "doenças detectadas": ["Hipertensão", "Diabetes", "Hepatite"],
+  "possui plano de saúde": true
 }
 ```
 
@@ -116,8 +116,10 @@ Deixa o código mais organizado, fácil de visualizar e de manipular, destacando
 const carro = "Fiat Uno";
 const kilometragem = "25km";
 
+//Concatenação
 const frase1 = "Meu carro é um " + carro + " e tem " + kilometragem + " rodados.";
 
+//Template String
 const frase2 = `Meu carro é um ${carro} e tem ${kilometragem} rodados.`;
 
 console.log(frase1);
