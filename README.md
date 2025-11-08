@@ -39,31 +39,44 @@ Exemplo: Vários aplicativos contêm informações valiosas, O instagram por exe
 - Remover a palavra "JavaScript" e gerar uma nova string;
 - Substituir "baseada" por "tem origem"
 
-Considerando a string str = "JavaScript é baseada em ECMA Script", você usaria os seguintes métodos:
+<br>
 
-(Verificar se contém a palavra "Script")
+Considerando a string `str = "JavaScript é baseada em ECMA Script" `, você usaria os seguintes métodos:
 
-O método mais direto (introduzido no ES6) é o includes().
-- Método: includes()
-- Exemplo: str.includes("Script");
-- Resultado: true
-      Alternativa: Você também poderia usar indexOf(). Se o resultado for diferente de -1, a string contém a palavra. Exemplo: str.indexOf("Script") !== -1;
+<br>
 
-(Remover a palavra "JavaScript" e gerar uma nova string)
+> ***(Verificar se contém a palavra "Script")***
 
-Pode-se usar o método replace() para encontrar a palavra e substituí-la por uma string vazia ("").
+O método mais direto (introduzido no ES6) é o `includes()`.
+- Método: `includes()`
+- Exemplo: `str.includes("Script");`
+- Resultado: `true`
 
-- Método: replace()
-- Exemplo: str.replace("JavaScript ", "");
-- Resultado: "é baseada em ECMA Script"
-    Observação: O replace() não modifica a string original, mas sim gera uma nova string com a substituição.
+Alternativa: Você também poderia usar `indexOf()`. Se o resultado for diferente de -1, a string contém a palavra.
+Exemplo: `str.indexOf("Script") !== -1;`
 
-(Substituir "baseada" por "tem origem")
+<br>
+<br>
 
-- Método: replace()
-- Exemplo: str.replace("baseada", "tem origem");
-- Resultado: "JavaScript é tem origem em ECMA Script"
+> ***(Remover a palavra "JavaScript" e gerar uma nova string)***
 
+Pode-se usar o método `replace()` para encontrar a palavra e substituí-la por uma string vazia (`""`).
+
+- Método: `replace()`
+- Exemplo: `str.replace("JavaScript ", "");`
+- Resultado: `"é baseada em ECMA Script"`
+  
+    Observação: O `replace()` não modifica a string original, mas sim gera uma nova string com a substituição.
+
+<br>
+<br>
+
+> ***(Substituir "baseada" por "tem origem")***
+
+- Método: `replace()`
+- Exemplo: `str.replace("baseada", "tem origem");`
+- Resultado: `"JavaScript é tem origem em ECMA Script"`
+<br>
 ## 4. Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas? ##
 
 Deixa o código mais organizado, fácil de visualizar e de manipular, destacando algumas características abaixo, como:
