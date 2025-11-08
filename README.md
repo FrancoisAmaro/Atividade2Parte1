@@ -111,5 +111,17 @@ Deixa o código mais organizado, fácil de visualizar e de manipular, destacando
 - **Expressões Inline**: É possível executar qualquer código **JavaScript** válido dentro do placeholder `${}` (incluindo operações matemáticas, chamadas de função, etc.), oferecendo maior flexibilidade para strings dinâmicas.
 <br>
 
+### Exemplo de Template e Concatenação: ###
+```javascript
+const carro = "Fiat Uno";
+const kilometragem = "25km";
+
+const frase1 = "Meu carro é um " + carro + " e tem " + kilometragem + " rodados.";
+
+const frase2 = `Meu carro é um ${carro} e tem ${kilometragem} rodados.`;
+
+console.log(frase1);
+console.log(frase2);
+```
 
   
