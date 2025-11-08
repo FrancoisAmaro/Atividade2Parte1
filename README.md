@@ -25,7 +25,7 @@
   "Data de Nascimento": "01/01/1970",
   "Local de Nascimento": "Rio de Janeiro - RJ",
   "Doenças Detectadas": ["Hipertensão", "Diabetes", "Hepatite"],
-  "Possui Plano de Saúde": true
+  "Possui Plano de Saúde": - [ ] 
 }
 ```
 
