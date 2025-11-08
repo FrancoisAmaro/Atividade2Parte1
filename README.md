@@ -35,9 +35,9 @@ Quando o JSON é transferido para API, é transferido como texto, e o método `J
 Exemplo: Vários aplicativos contêm informações valiosas, O instagram por exemplo, possui vários usuários e um banco de dados, e para manter a segurança dessas informações do banco de dados ele utiliza um API (Application Programming Interface) com vários regras de acesso, quem pode pedir tal informação, qual informação será fornecida, login, token de autenticação, entre outras. Tudo isso para manter o banco de dados seguro, pois se alguém tivesse como acessar diretamente, o tal aplicativo ficaria muito vulnerável. Essa requisição geralmente é feita através de JSON.
 
 ## 3. Considerando a string "JavaScript é baseada em ECMA Script", quais métodos você usaria para: ##
-  - Verificar se contém a palavra "Script";
-  - Remover a palavra "JavaScript" e gerar uma nova string;
-  - Substituir "baseada" por "tem origem"
+- Verificar se contém a palavra "Script";
+- Remover a palavra "JavaScript" e gerar uma nova string;
+- Substituir "baseada" por "tem origem"
 
 Considerando a string str = "JavaScript é baseada em ECMA Script", você usaria os seguintes métodos:
 
